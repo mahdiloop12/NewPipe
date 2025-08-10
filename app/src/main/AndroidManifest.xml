@@ -445,5 +445,12 @@
             android:resource="@xml/automotive_app_desc" />
         <meta-data android:name="com.google.android.gms.car.notification.SmallIcon"
             android:resource="@mipmap/ic_launcher" />
+    
+        <!-- Custom downloader activity -->
+        <activity
+            android:name=".CustomDownloaderActivity"
+            android:exported="false"
+            android:label="@string/title_custom_downloader" />
+
     </application>
 </manifest>
